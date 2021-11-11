@@ -1,76 +1,30 @@
-<html>
-  <body>
-
-  <style>
-
-    .button{
-      margin: 16px; 
-      padding: 16px;
-      background-color:rgb(0, 95, 0);
-      color: aliceblue;
-      border: none;
-      border-radius: 4px;
-      font-size: 12px;
-    }
-
-    .block{
-      border-radius: 10px;
-     border: #0f9900;
-     background: #0f9900;
-     position:absolute;
-     top:50%;
-     left:50%;
-     margin-top:-120px;
-     margin-left:-180px;
-     width: 27em;
-     height: 15em;
-    }
-
-   .field {
-     margin-top:45px;
-   width: 100%;
-   text-align: center;
-   }
-
-    aviso {
-     font-family: "Helvetica Neue", Helvetica, sans-serif;
-     color: white;
-     font-size: larger;
-     font-weight: bold;
-     margin: auto;
-    }
-
-   body {
-     font-family: "Helvetica Neue", Helvetica, sans-serif;
-   }
-
-   .header {
-  background-color: rgb(30, 148, 40);
-  height: 75px;
- 
-   }
-
- </style>
-
-<img src="./hoja.jpg" alt="Fondo" width="1580" height="800" >
-
-   <div class="block">
-
-     <div class="field">
-       <aviso>¡Se ha registrado tu asistencia al evento exitosamente!</aviso>
-     </div>
-
-     <h2></h2>
-     
-     <div class="field">
-        <input type="button" class="button" value=Volver> 
-     </div>
-
-
-   </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StarGreen Confirm</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="tenor-gif-embed" data-postid="15365300" data-share-method="host" data-aspect-ratio="2.19178" data-width="100%"><a href="https://tenor.com/view/neon-cat-cat-rainbow-gif-15365300">Neon Cat Rainbow Sticker</a>from <a href="https://tenor.com/search/neon+cat-stickers">Neon Cat Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+   <script>
+     window.onload = function() {
+      Swal.fire({
+      title: '¡Listo!',
+      icon: 'success',
+      text: 'Registro a evento completado con éxito.',
+      backdrop: `
+      url("https://tenor.com/view/neon-cat-cat-rainbow-gif-15365300")
+      rgba(0,0,123,0.4)
+      left top
+      no-repeat`,
+      showCloseButton: true,
+    })
+    };
+   </script>
+   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
-   
-   
-
-   </html>
+</html>
